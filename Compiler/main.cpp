@@ -8,12 +8,10 @@ void store(u_int16_t *mem, char* path);
 void storeAsm(string src, string path);
 
 int main(int count, char **args) {
-    string op = "-c";
-    string src = "a = 'd'\nc = \"=a+\"";
+    string src = "";
     char *out = "out.fcomp";
-    if (count > 2) op = args[1];
-    if (count > 2) src = load(args[2]);
-    if (count > 3) out = args[3];
+    if (count > 1) src = load(args[1]);
+    if (count > 2) out = args[2];
     vector<Token> *tokens;
     try {
         tokens = tokenize(src);
