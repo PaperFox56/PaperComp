@@ -18,4 +18,4 @@ VM binary
 to run (where 'Compiler' and 'VM' are the executables).
 
 
-There is still nodoccumentation on the assembly language, feel free to use my example code as a guide.
+There is still no doccumentation for the assembly language, feel free to use my example code as a guide.
