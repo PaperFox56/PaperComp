@@ -1,14 +1,17 @@
-# Dependencies
+## Documentation
+See DOC.md for the full project's architecture
+
+## Dependencies
 Any C++ compiler
 
-# Compilation 
+## Compilation 
 The Each folder has to be compiled separatly.
 ```bash
 g++ ./*.cpp -o <target>
 ```
 should work just fine.
 
-# Running
+## Running
 ```bash
 Compiler <source> [dest]
 ```
